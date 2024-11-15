@@ -59,8 +59,8 @@ class TestConversions(unittest.TestCase):
 
     def test_convert_points_to_optimal_crs_fallback_to_wgs84(self):
         crs, transformed_points = convert_points_to_optimal_crs(self.points_outside_defined)
-        self.assertEqual(crs, "wgs84")  # Expect WGS84 as fallback
-        self.assertEqual(transformed_points, self.points_outside_defined)  # Points should remain unchanged
+        self.assertEqual(crs, "wgs84")
+        self.assertEqual(transformed_points, self.points_outside_defined)
 
 
 if __name__ == "__main__":

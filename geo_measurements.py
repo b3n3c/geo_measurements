@@ -316,7 +316,6 @@ def section(point1: Tuple[float, float],
     x1, y1 = points[0][1], points[0][0]
     x2, y2 = points[1][1], points[1][0]
 
-    # Applying section formula https://www.geeksforgeeks.org/section-formula-point-divides-line-given-ratio/
     x = (float)((n * x1) + (m * x2)) / (m + n)
     y = (float)((n * y1) + (m * y2)) / (m + n)
 
