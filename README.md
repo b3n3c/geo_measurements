@@ -13,6 +13,9 @@ This Python project delivers a suite of geospatial utility functions for precise
   
 ## Setup  
 Install using pip or clone repository.
+```bash
+pip install geo-measurements
+```
   ## Usage  
 Prepare geographic data in the form of latitude and longitude tuples. These coordinates should be in WGS84 (EPSG:4326) projection, which is the standard format for GPS systems and maps.  
 #### Example:  
